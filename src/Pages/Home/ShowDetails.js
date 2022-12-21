@@ -26,7 +26,7 @@ const ShowDetails = () => {
         <h1 className="text-center mb-5">{det?.show?.name}</h1>
         <div className="d-flex gap-3">
 
-        <img className="img-fluid" style={{width:"50%"}} src={det?.show?.image?.original} alt="" />
+        <img className="img-fluid" style={{width:"30%"}} src={det?.show?.image?.original} alt="" />
         <div>
 
         <p dangerouslySetInnerHTML={{
